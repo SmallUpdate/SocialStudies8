@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+  .chapter_1,
+  .chapter_2,
+  .chapter_3,
+  .chapter_4 {
+    font-size: 28px;
+  }
+
+  .btn_lesson {
+    font-size: 24px;
+  }
+
+  .list {
+    margin-bottom: 16px;
+  }
+
+  .text {
+    margin-bottom: 16px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .list_title {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .footer_text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .chapter_1,
+  .chapter_2,
+  .chapter_3,
+  .chapter_4 {
+    font-size: 24px;
+  }
+
+  .btn_lesson {
+    font-size: 20px;
+  }
+
+  .list {
+    margin-bottom: 12px;
+  }
+
+  .text {
+    margin-bottom: 12px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .list_title {
+    font-size: 16px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .footer_text {
+    font-size: 12px;
+  }
+}

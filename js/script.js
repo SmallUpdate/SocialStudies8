@@ -29,18 +29,22 @@ $(function() {
   
   $("#second").click(function(){
     $('#second').toggleClass("lesson_active")
+    $('#second_section').toggleClass("section_show")
   });
 
   $("#third").click(function(){
     $('#third').toggleClass("lesson_active")
+    $('#third_section').toggleClass("section_show")
   });
   
   $("#fourth").click(function(){
     $('#fourth').toggleClass("lesson_active")
+    $('#fourth_section').toggleClass("section_show")
   });
   
   $("#fifth").click(function(){
     $('#fifth').toggleClass("lesson_active")
+    $('#fifth_section').toggleClass("section_show")
   });
   
   $("#sixth").click(function(){

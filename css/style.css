@@ -3,7 +3,6 @@
   padding: 0;
   scroll-behavior: smooth;
   font-family: "Montserrat";
-  color: black;
   color: #ffc800;
 }
 
@@ -12,8 +11,6 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
   background-color: #222;
 }
 
@@ -26,6 +23,10 @@ body {
 .content {
   width: 90%;
   max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0;
 }
 
 button {
@@ -49,7 +50,7 @@ button {
 .chapter_4 {
   font-size: 32px;
   height: 80px;
-  margin: 20px 0;
+  margin: 10px 0;
   border-radius: 20px;
 }
 
@@ -57,21 +58,25 @@ button {
 .chapter_2_lessons,
 .chapter_3_lessons,
 .chapter_4_lessons {
-  width: 90%;
+  width: 100%;
   display: none;
-  margin: 0 auto;
+  opacity: 0;
+  transition: opacity 1s linear 1s;
 }
 
 .lessons_show {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
 }
 
 .btn_lesson {
-  width: 100%;
+  width: 90%;
   font-size: 28px;
-  height: 60px;
-  margin-bottom: 20px;
+  margin: 10px 0;
   border-radius: 15px;
+  padding: 15px 0;
 }
 
 .lesson_active {
@@ -89,6 +94,7 @@ section {
 
 span {
   font-weight: 700;
+  text-decoration: underline #ffc800;
 }
 
 .list {
@@ -120,4 +126,26 @@ li::marker {
 
 .text {
   padding: 4px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffc800;;
+}
+
+.footer_text {
+  padding: 20px 0;
+  width: 90%;
+  max-width: 1200px;
+  color: #222;
+}
+
+.copyright {
+  color: #222;
+}
+
+.footer_link {
+  color: #222;
 }
