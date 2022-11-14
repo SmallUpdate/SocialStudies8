@@ -3,11 +3,11 @@
   .chapter_2,
   .chapter_3,
   .chapter_4 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .btn_lesson {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .list {
@@ -16,14 +16,11 @@
 
   .text {
     margin-bottom: 16px;
-  }
-
-  .subtitle {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .list_title {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   li {
@@ -54,14 +51,11 @@
 
   .text {
     margin-bottom: 12px;
-  }
-
-  .subtitle {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .list_title {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   li {
